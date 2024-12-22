@@ -62,5 +62,7 @@
       "system": "custom-system-builder",
       "flags": {}
     }
-  ]
+  ],
+  "manifest": "https://raw.githubusercontent.com/rafaelchagas9/PersonaFoundry/refs/heads/main/module.json",
+  "download": ""
 }
