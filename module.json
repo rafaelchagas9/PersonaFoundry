@@ -1,0 +1,66 @@
+{
+  "id": "grimorio-do-coracao-persona",
+  "title": "Grimório do Coração (Persona)",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "asdf",
+  "authors": [
+    {
+      "name": "Rafael",
+      "discord": "rafael.9",
+      "email": "grimorio@rafaelm.dev",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Itens",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Magias",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "creatures",
+      "label": "Criaturas/Atores",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    }
+  ]
+}
