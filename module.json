@@ -1,7 +1,7 @@
 {
   "id": "grimorio-do-coracao-persona",
   "title": "Grimório do Coração (Persona)",
-  "version": "0.1",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
