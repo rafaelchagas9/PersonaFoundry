@@ -1,5 +1,22 @@
-2024/12/20-07:25:42.118307 730579efe0 Recovering log #11
-2024/12/20-07:25:42.119841 730579efe0 Level-0 table #13: started
-2024/12/20-07:25:42.122951 730579efe0 Level-0 table #13: 25331 bytes OK
-2024/12/20-07:25:42.128727 730579efe0 Delete type=3 #10
-2024/12/20-07:25:42.128795 730579efe0 Delete type=0 #11
+2024/12/20-08:38:14.154244 7f6f7eefe0 Recovering log #14
+2024/12/20-08:38:14.159883 7f6f7eefe0 Delete type=3 #12
+2024/12/20-08:38:14.160048 7f6f7eefe0 Delete type=0 #14
+2024/12/21-21:24:37.417890 7ce97befe0 Level-0 table #18: started
+2024/12/21-21:24:37.419940 7ce97befe0 Level-0 table #18: 5143 bytes OK
+2024/12/21-21:24:37.422267 7ce97befe0 Delete type=0 #16
+2024/12/21-21:24:37.432168 7ce97befe0 Manual compaction at level-0 from '!folders!10dZjFlIK9PlFSDS' @ 72057594037927935 : 1 .. '!items!vZcG45RgqPTJQb8J' @ 0 : 0; will stop at '!items!gHIo7bLPv4DuJS84' @ 50 : 1
+2024/12/21-21:24:37.432197 7ce97befe0 Compacting 2@0 + 0@1 files
+2024/12/21-21:24:37.435010 7ce97befe0 Generated table #19@0: 7 keys, 8747 bytes
+2024/12/21-21:24:37.435042 7ce97befe0 Compacted 2@0 + 0@1 files => 8747 bytes
+2024/12/21-21:24:37.437471 7ce97befe0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/21-21:24:37.437611 7ce97befe0 Delete type=2 #13
+2024/12/21-21:24:37.437870 7ce97befe0 Delete type=2 #18
+2024/12/21-21:24:37.448296 7ce97befe0 Manual compaction at level-0 from '!items!gHIo7bLPv4DuJS84' @ 50 : 1 .. '!items!vZcG45RgqPTJQb8J' @ 0 : 0; will stop at (end)
+2024/12/21-21:24:37.448431 7ce97befe0 Manual compaction at level-1 from '!folders!10dZjFlIK9PlFSDS' @ 72057594037927935 : 1 .. '!items!vZcG45RgqPTJQb8J' @ 0 : 0; will stop at '!items!mLw3J4eRTu9DABW9' @ 42 : 1
+2024/12/21-21:24:37.448447 7ce97befe0 Compacting 1@1 + 1@2 files
+2024/12/21-21:24:37.451645 7ce97befe0 Generated table #20@1: 18 keys, 23727 bytes
+2024/12/21-21:24:37.451678 7ce97befe0 Compacted 1@1 + 1@2 files => 23727 bytes
+2024/12/21-21:24:37.453990 7ce97befe0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/21-21:24:37.454102 7ce97befe0 Delete type=2 #19
+2024/12/21-21:24:37.454273 7ce97befe0 Delete type=2 #5
+2024/12/21-21:24:37.454533 7ce97befe0 Manual compaction at level-1 from '!items!mLw3J4eRTu9DABW9' @ 42 : 1 .. '!items!vZcG45RgqPTJQb8J' @ 0 : 0; will stop at (end)
